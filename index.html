@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GIPHY SEARCH</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h2>Giphy Search</h2>
+        </div>
+        <div id="movies-view">
+
+        </div>
+        <form id="movie-form">
+            <label for="movie-input">Add anything!</label>
+            <input type="text" id="movie-input">
+            <br>
+        <!--Button triggers new show or movie to be added-->
+        <input id="add-movie" type="submit" value="Submit">    
+        </form>
+
+
+        <!-- <button data-search="John Wick">John Wick</button>
+        <button data-search="Sons of Anarchy">Sons of Anarchy</button>
+        <button data-search="Saving Private Ryan">Saving Private Ryan</button>
+        <button data-search="Mad Men">Mad Men</button>
+        <button data-search="Stranger Things">Stranger Things</button>
+        <button data-search="Marvel's The Punisher">The Punisher</button>
+        <button data-search="Neon Genesis Evangelion">Neon Genesis Evangelion</button> -->
+
+        <div id="GIFArea"></div><br>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
